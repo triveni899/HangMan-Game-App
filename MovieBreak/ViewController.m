@@ -14,14 +14,110 @@
 
 @implementation ViewController
 
+NSString *movie;
+UIView *view;
+NSMutableArray *movie_array;
+char text;
+UIImage *img;
+float movielen;
+
+@synthesize imageView;
+
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"moviewall.jpg"]]];
+   
+    movie=[NSString stringWithFormat:@"BAR"];
+    //NSMutableString *length=[NSString stringWithFormat:@"%.2d", movie.length];
+    movielen = movie.length;
+    movie_array=[[NSMutableArray alloc]init];
+    //int index=0;
+    int x=100;
+    for(int i=0;i<movielen; i++)
+    {
+        view=[[UIView alloc] initWithFrame:CGRectMake(x, 40, 60, 60)];
+        [movie_array addObject:view];
+        [movie_array[i] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"strip.png"]] ];
+        [self.view addSubview:movie_array[i]];
+        
+        x=x+60;
+    }
+    
+    
+    /* 
+     
+     self.brick_array = [[NSMutableArray alloc] init];
+     int x=20, y=40;
+     int index = 0;
+     
+     
+     for(int i=0;i<10;i++)
+     {
+     for(int j=0; j<5;j++)
+     {
+     brick = [[UIView alloc] initWithFrame:CGRectMake(x, y,60,15)];
+     [self.brick_array addObject:brick];
+     [self addSubview:brick_array[index]];
+     // [brick_array[index] setBackgroundColor:[[UIColor alloc] initWithRed:arc4random()%256/256.0 green:arc4random()%256/256.0 blue:arc4random()%256/256.0 alpha:1.0]];
+     [brick_array[index] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"brick.png"]] ];
+     x=x+60;
+     index++;
+     }
+     x=20;y=y+20;
+     
+     }
+
+     
+     */
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
+    
+    
     // Dispose of any resources that can be recreated.
 }
+- (IBAction)ButtonAction:(id)sender {
+    NSInteger tagval = [sender tag];
+    
+    switch(tagval)
+    {
+        case 0:
+            text='A';
+            img=[UIImage imageNamed:@"a.jpg"];
+           
+            break;
+        case 1:
+            text='B';
+            img=[UIImage imageNamed:@"b.png"];
+            break;
+        default:
+            break;
+    }
+    [self checkHit];
+    
+    
+}
 
+
+-(void)checkHit{
+    for(int i=0;i<movielen;i++)
+    {
+         // NSLog(@"text %@",text);
+        //NSLog(@"text %@",[movie characterAtIndex:i]);
+        // ([@"test" characterAtIndex:1] == 'e')
+        if([movie characterAtIndex:i]==text)
+        {
+            [movie_array[i] setBackgroundColor:[UIColor colorWithPatternImage:img] ];
+             // [self.view addSubview:movie_array[i]];
+            //NSLog(@"letter found");
+            break;
+        }
+    }
+}
 @end

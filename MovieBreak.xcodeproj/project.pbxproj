@@ -15,6 +15,15 @@
 		E4A8B4321CE435F900C27AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A8B4301CE435F900C27AFB /* LaunchScreen.storyboard */; };
 		E4A8B43D1CE435FA00C27AFB /* MovieBreakTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A8B43C1CE435FA00C27AFB /* MovieBreakTests.m */; };
 		E4A8B4481CE435FA00C27AFB /* MovieBreakUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A8B4471CE435FA00C27AFB /* MovieBreakUITests.m */; };
+		E4A8B4561CE4368A00C27AFB /* final.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4A8B4551CE4368A00C27AFB /* final.jpg */; };
+		E4A8B4581CE438D700C27AFB /* moviehall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4A8B4571CE438D700C27AFB /* moviehall.jpg */; };
+		E4A8B45A1CE43AB200C27AFB /* moviewall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4A8B4591CE43AB200C27AFB /* moviewall.jpg */; };
+		E4A8B45C1CE43E5700C27AFB /* a.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4A8B45B1CE43E5700C27AFB /* a.jpg */; };
+		E4CDA8D81CE4448C0061D9CC /* A1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CDA8D71CE4448C0061D9CC /* A1.png */; };
+		E4CDA8DA1CE4456D0061D9CC /* orangea.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CDA8D91CE4456D0061D9CC /* orangea.png */; };
+		E4CDA8DC1CE446560061D9CC /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CDA8DB1CE446560061D9CC /* b.png */; };
+		E4CDA8DE1CE454800061D9CC /* reel2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CDA8DD1CE454800061D9CC /* reel2.png */; };
+		E4CDA8E01CE456970061D9CC /* strip.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CDA8DF1CE456970061D9CC /* strip.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		E4A8B4431CE435FA00C27AFB /* MovieBreakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieBreakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A8B4471CE435FA00C27AFB /* MovieBreakUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MovieBreakUITests.m; sourceTree = "<group>"; };
 		E4A8B4491CE435FA00C27AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A8B4551CE4368A00C27AFB /* final.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = final.jpg; sourceTree = "<group>"; };
+		E4A8B4571CE438D700C27AFB /* moviehall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moviehall.jpg; sourceTree = "<group>"; };
+		E4A8B4591CE43AB200C27AFB /* moviewall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moviewall.jpg; sourceTree = "<group>"; };
+		E4A8B45B1CE43E5700C27AFB /* a.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = a.jpg; sourceTree = "<group>"; };
+		E4CDA8D71CE4448C0061D9CC /* A1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = A1.png; sourceTree = "<group>"; };
+		E4CDA8D91CE4456D0061D9CC /* orangea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangea.png; sourceTree = "<group>"; };
+		E4CDA8DB1CE446560061D9CC /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		E4CDA8DD1CE454800061D9CC /* reel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reel2.png; sourceTree = "<group>"; };
+		E4CDA8DF1CE456970061D9CC /* strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strip.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +135,15 @@
 		E4A8B4221CE435F900C27AFB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E4A8B4591CE43AB200C27AFB /* moviewall.jpg */,
+				E4A8B45B1CE43E5700C27AFB /* a.jpg */,
+				E4CDA8DB1CE446560061D9CC /* b.png */,
+				E4CDA8D71CE4448C0061D9CC /* A1.png */,
+				E4CDA8D91CE4456D0061D9CC /* orangea.png */,
+				E4CDA8DF1CE456970061D9CC /* strip.png */,
+				E4CDA8DD1CE454800061D9CC /* reel2.png */,
+				E4A8B4571CE438D700C27AFB /* moviehall.jpg */,
+				E4A8B4551CE4368A00C27AFB /* final.jpg */,
 				E4A8B4231CE435F900C27AFB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -247,7 +274,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4A8B4321CE435F900C27AFB /* LaunchScreen.storyboard in Resources */,
+				E4A8B4581CE438D700C27AFB /* moviehall.jpg in Resources */,
+				E4A8B45A1CE43AB200C27AFB /* moviewall.jpg in Resources */,
+				E4CDA8DA1CE4456D0061D9CC /* orangea.png in Resources */,
+				E4CDA8D81CE4448C0061D9CC /* A1.png in Resources */,
+				E4A8B45C1CE43E5700C27AFB /* a.jpg in Resources */,
+				E4CDA8DC1CE446560061D9CC /* b.png in Resources */,
 				E4A8B42F1CE435F900C27AFB /* Assets.xcassets in Resources */,
+				E4CDA8DE1CE454800061D9CC /* reel2.png in Resources */,
+				E4A8B4561CE4368A00C27AFB /* final.jpg in Resources */,
+				E4CDA8E01CE456970061D9CC /* strip.png in Resources */,
 				E4A8B42D1CE435F900C27AFB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -499,6 +535,7 @@
 				E4A8B44E1CE435FA00C27AFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4A8B44F1CE435FA00C27AFB /* Build configuration list for PBXNativeTarget "MovieBreakTests" */ = {
 			isa = XCConfigurationList;
@@ -507,6 +544,7 @@
 				E4A8B4511CE435FA00C27AFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4A8B4521CE435FA00C27AFB /* Build configuration list for PBXNativeTarget "MovieBreakUITests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +553,7 @@
 				E4A8B4541CE435FA00C27AFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
