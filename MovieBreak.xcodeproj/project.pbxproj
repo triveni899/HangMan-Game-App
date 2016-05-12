@@ -24,6 +24,9 @@
 		E4CDA8DC1CE446560061D9CC /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CDA8DB1CE446560061D9CC /* b.png */; };
 		E4CDA8DE1CE454800061D9CC /* reel2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CDA8DD1CE454800061D9CC /* reel2.png */; };
 		E4CDA8E01CE456970061D9CC /* strip.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CDA8DF1CE456970061D9CC /* strip.png */; };
+		E4CDA8E21CE45EA00061D9CC /* hangman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4CDA8E11CE45EA00061D9CC /* hangman.jpg */; };
+		E4CDA8E41CE45FAB0061D9CC /* hang.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CDA8E31CE45FAB0061D9CC /* hang.png */; };
+		E4CDA8E61CE4602B0061D9CC /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = E4CDA8E51CE4602B0061D9CC /* sad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +72,9 @@
 		E4CDA8DB1CE446560061D9CC /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
 		E4CDA8DD1CE454800061D9CC /* reel2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reel2.png; sourceTree = "<group>"; };
 		E4CDA8DF1CE456970061D9CC /* strip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = strip.png; sourceTree = "<group>"; };
+		E4CDA8E11CE45EA00061D9CC /* hangman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hangman.jpg; sourceTree = "<group>"; };
+		E4CDA8E31CE45FAB0061D9CC /* hang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hang.png; sourceTree = "<group>"; };
+		E4CDA8E51CE4602B0061D9CC /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sad.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,10 +143,13 @@
 			children = (
 				E4A8B4591CE43AB200C27AFB /* moviewall.jpg */,
 				E4A8B45B1CE43E5700C27AFB /* a.jpg */,
+				E4CDA8E11CE45EA00061D9CC /* hangman.jpg */,
 				E4CDA8DB1CE446560061D9CC /* b.png */,
 				E4CDA8D71CE4448C0061D9CC /* A1.png */,
+				E4CDA8E31CE45FAB0061D9CC /* hang.png */,
 				E4CDA8D91CE4456D0061D9CC /* orangea.png */,
 				E4CDA8DF1CE456970061D9CC /* strip.png */,
+				E4CDA8E51CE4602B0061D9CC /* sad.png */,
 				E4CDA8DD1CE454800061D9CC /* reel2.png */,
 				E4A8B4571CE438D700C27AFB /* moviehall.jpg */,
 				E4A8B4551CE4368A00C27AFB /* final.jpg */,
@@ -282,7 +291,10 @@
 				E4CDA8DC1CE446560061D9CC /* b.png in Resources */,
 				E4A8B42F1CE435F900C27AFB /* Assets.xcassets in Resources */,
 				E4CDA8DE1CE454800061D9CC /* reel2.png in Resources */,
+				E4CDA8E41CE45FAB0061D9CC /* hang.png in Resources */,
 				E4A8B4561CE4368A00C27AFB /* final.jpg in Resources */,
+				E4CDA8E21CE45EA00061D9CC /* hangman.jpg in Resources */,
+				E4CDA8E61CE4602B0061D9CC /* sad.png in Resources */,
 				E4CDA8E01CE456970061D9CC /* strip.png in Resources */,
 				E4A8B42D1CE435F900C27AFB /* Main.storyboard in Resources */,
 			);

@@ -21,14 +21,14 @@ char text;
 UIImage *img;
 float movielen;
 
-@synthesize imageView;
+@synthesize imageView,head;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"moviewall.jpg"]]];
    
-    movie=[NSString stringWithFormat:@"BAR"];
+    movie=[NSString stringWithFormat:@"CAR"];
     //NSMutableString *length=[NSString stringWithFormat:@"%.2d", movie.length];
     movielen = movie.length;
     movie_array=[[NSMutableArray alloc]init];
@@ -89,7 +89,7 @@ float movielen;
     {
         case 0:
             text='A';
-            img=[UIImage imageNamed:@"a.jpg"];
+            img=[UIImage imageNamed:@"A1.png"];
            
             break;
         case 1:
@@ -106,6 +106,7 @@ float movielen;
 
 
 -(void)checkHit{
+    int hit =0;
     for(int i=0;i<movielen;i++)
     {
          // NSLog(@"text %@",text);
@@ -116,8 +117,18 @@ float movielen;
             [movie_array[i] setBackgroundColor:[UIColor colorWithPatternImage:img] ];
              // [self.view addSubview:movie_array[i]];
             //NSLog(@"letter found");
+            hit =1;
             break;
         }
     }
+    
+    if(hit ==0)
+    {
+        //draw hangman
+        head.hidden=NO;
+    }
 }
+
+
+
 @end
