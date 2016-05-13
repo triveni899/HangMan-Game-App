@@ -26,7 +26,7 @@ float movielen;
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"moviewall.jpg"]]];
+    [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"MovieNight.jpg"]]];
    
     movie=[NSString stringWithFormat:@"CAR"];
     //NSMutableString *length=[NSString stringWithFormat:@"%.2d", movie.length];
@@ -36,12 +36,12 @@ float movielen;
     int x=100;
     for(int i=0;i<movielen; i++)
     {
-        view=[[UIView alloc] initWithFrame:CGRectMake(x, 40, 60, 60)];
+        view=[[UIView alloc] initWithFrame:CGRectMake(x, 10, 30, 30)];
         [movie_array addObject:view];
-        [movie_array[i] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"strip.png"]] ];
+        [movie_array[i] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"rings.png"]] ];
         [self.view addSubview:movie_array[i]];
         
-        x=x+60;
+        x=x+30;
     }
     
     
@@ -89,12 +89,12 @@ float movielen;
     {
         case 0:
             text='A';
-            img=[UIImage imageNamed:@"A1.png"];
+            img=[UIImage imageNamed:@"b_gold-2.png"];
            
             break;
         case 1:
             text='B';
-            img=[UIImage imageNamed:@"b.png"];
+            img=[UIImage imageNamed:@"b_gold-2.png"];
             break;
         default:
             break;
