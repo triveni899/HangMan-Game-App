@@ -89,13 +89,112 @@ float movielen;
     {
         case 0:
             text='A';
-            img=[UIImage imageNamed:@"b_gold-2.png"];
+            img=[UIImage imageNamed:@"a_gold-2.png"];
            
             break;
         case 1:
             text='B';
             img=[UIImage imageNamed:@"b_gold-2.png"];
             break;
+        case 2:
+            text='C';
+            img=[UIImage imageNamed:@"c_gold-2.png"];
+            break;
+        case 3:
+            text='D';
+            img=[UIImage imageNamed:@"d_gold-2.png"];
+            break;
+        case 4:
+            text='E';
+            img=[UIImage imageNamed:@"e_gold-2.png"];
+            break;
+        case 5:
+            text='F';
+            img=[UIImage imageNamed:@"f_gold-2.png"];
+            break;
+        case 6:
+            text='G';
+            img=[UIImage imageNamed:@"g_gold-2.png"];
+            break;
+        case 7:
+            text='H';
+            img=[UIImage imageNamed:@"h_gold-2.png"];
+            break;
+        case 8:
+            text='I';
+            img=[UIImage imageNamed:@"i_gold-2.png"];
+            break;
+        case 9:
+            text='J';
+            img=[UIImage imageNamed:@"j_gold-2.png"];
+            break;
+        case 10:
+            text='K';
+            img=[UIImage imageNamed:@"k_gold-2.png"];
+            break;
+        case 11:
+            text='L';
+            img=[UIImage imageNamed:@"l_gold-2.png"];
+            break;
+        case 12:
+            text='M';
+            img=[UIImage imageNamed:@"m_gold-2.png"];
+            break;
+        case 13:
+            text='N';
+            img=[UIImage imageNamed:@"n_gold-2.png"];
+            break;
+        case 14:
+            text='O';
+            img=[UIImage imageNamed:@"o_gold-2.png"];
+            break;
+        case 15:
+            text='P';
+            img=[UIImage imageNamed:@"p_gold-2.png"];
+            break;
+        case 16:
+            text='Q';
+            img=[UIImage imageNamed:@"q_gold-2.png"];
+            break;
+        case 17:
+            text='R';
+            img=[UIImage imageNamed:@"r_gold-2.png"];
+            break;
+        case 18:
+            text='S';
+            img=[UIImage imageNamed:@"s_gold-2.png"];
+            break;
+        case 19:
+            text='T';
+            img=[UIImage imageNamed:@"t_gold-2.png"];
+            break;
+        case 20:
+            text='U';
+            img=[UIImage imageNamed:@"u_gold-2.png"];
+            break;
+        case 21:
+            text='V';
+            img=[UIImage imageNamed:@"v_gold-2.png"];
+            break;
+        case 22:
+            text='W';
+            img=[UIImage imageNamed:@"w_gold-2.png"];
+            break;
+        case 23:
+            text='X';
+            img=[UIImage imageNamed:@"x_gold-2.png"];
+            break;
+        case 24:
+            text='Y';
+            img=[UIImage imageNamed:@"y_gold-2.png"];
+            break;
+        case 25:
+            text='Z';
+            img=[UIImage imageNamed:@"z_gold-2.png"];
+   
+            break;
+
+        
         default:
             break;
     }

@@ -58,11 +58,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieBreak/ViewController.m"
-            timestampString = "484728501.852582"
+            timestampString = "484869296.225519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "119"
-            endingLineNumber = "119"
+            startingLineNumber = "218"
+            endingLineNumber = "218"
             landmarkName = "-checkHit"
             landmarkType = "5">
          </BreakpointContent>
@@ -90,11 +90,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieBreak/ViewController.m"
-            timestampString = "484727569.60525"
+            timestampString = "484869296.225519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
+            startingLineNumber = "115"
+            endingLineNumber = "115"
             landmarkName = "-ButtonAction:"
             landmarkType = "5">
          </BreakpointContent>
@@ -106,11 +106,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieBreak/ViewController.m"
-            timestampString = "484728501.852582"
+            timestampString = "484869296.225519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "118"
-            endingLineNumber = "118"
+            startingLineNumber = "217"
+            endingLineNumber = "217"
             landmarkName = "-checkHit"
             landmarkType = "5">
          </BreakpointContent>
@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieBreak/ViewController.m"
-            timestampString = "484728501.852582"
+            timestampString = "484869296.225519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "116"
-            endingLineNumber = "116"
+            startingLineNumber = "215"
+            endingLineNumber = "215"
             landmarkName = "-checkHit"
             landmarkType = "5">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieBreak/ViewController.m"
-            timestampString = "484728501.852582"
+            timestampString = "484869296.225519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "209"
+            endingLineNumber = "209"
             landmarkName = "-checkHit"
             landmarkType = "5">
          </BreakpointContent>
@@ -154,11 +154,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieBreak/ViewController.m"
-            timestampString = "484727569.60525"
+            timestampString = "484869296.225519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "102"
-            endingLineNumber = "102"
+            startingLineNumber = "201"
+            endingLineNumber = "201"
             landmarkName = "-ButtonAction:"
             landmarkType = "5">
          </BreakpointContent>
@@ -170,11 +170,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieBreak/ViewController.m"
-            timestampString = "484728501.852582"
+            timestampString = "484869296.225519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "117"
-            endingLineNumber = "117"
+            startingLineNumber = "216"
+            endingLineNumber = "216"
             landmarkName = "-checkHit"
             landmarkType = "5">
          </BreakpointContent>
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieBreak/ViewController.m"
-            timestampString = "484728501.852582"
+            timestampString = "484869296.225519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "115"
-            endingLineNumber = "115"
+            startingLineNumber = "214"
+            endingLineNumber = "214"
             landmarkName = "-checkHit"
             landmarkType = "5">
          </BreakpointContent>
@@ -202,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieBreak/ViewController.m"
-            timestampString = "484728501.852582"
+            timestampString = "484869296.225519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "112"
-            endingLineNumber = "112"
+            startingLineNumber = "211"
+            endingLineNumber = "211"
             landmarkName = "-checkHit"
             landmarkType = "5">
          </BreakpointContent>
@@ -218,12 +218,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieBreak/ViewController.m"
-            timestampString = "484728501.852582"
+            timestampString = "484869296.225519"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "113"
-            endingLineNumber = "113"
+            startingLineNumber = "212"
+            endingLineNumber = "212"
             landmarkName = "-checkHit"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieBreak/ViewController.m"
+            timestampString = "484869577.259689"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "-ButtonAction:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
