@@ -12,6 +12,13 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UIImageView *head;
+@property (weak, nonatomic) IBOutlet UILabel *winnerlbl;
+@property (weak, nonatomic) IBOutlet UIImageView *lefthand;
+@property (weak, nonatomic) IBOutlet UIImageView *back;
+@property (weak, nonatomic) IBOutlet UIImageView *rightleg;
+@property (weak, nonatomic) IBOutlet UIImageView *leftleg;
+@property (weak, nonatomic) IBOutlet UIImageView *righthand;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *ButtonArray;
 
 @end
 

@@ -14,24 +14,45 @@
 
 @implementation ViewController
 
-NSString *movie;
+NSString *movie,*result;
 UIView *view;
-NSMutableArray *movie_array;
+NSMutableArray *movie_array,*result_array;
+
 char text;
 UIImage *img;
 float movielen;
+int randomMovieNo;
+static int misscount=0,letterhit=0;
+static int Gameover=0;
+NSMutableArray *temparray;
 
-@synthesize imageView,head;
+@synthesize imageView,head,winnerlbl,righthand,lefthand,rightleg,leftleg,back,ButtonArray;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"MovieNight.jpg"]]];
-   
-    movie=[NSString stringWithFormat:@"CAR"];
+    
+     [self readFile];
+    
+    
+    //movie=[NSString stringWithFormat:@"CAR"];
     //NSMutableString *length=[NSString stringWithFormat:@"%.2d", movie.length];
     movielen = movie.length;
     movie_array=[[NSMutableArray alloc]init];
+    result_array=[[NSMutableArray alloc] init];
+    winnerlbl.hidden=YES;
+    
+    
+    temparray = [NSMutableArray array];
+    for (int i = 0; i < movielen; i++) {
+        [temparray addObject:[NSString stringWithFormat:@"%C", [movie characterAtIndex:i]]];
+    }
+    
+    for (int i = 0; i < movielen; i++) {
+        [result_array addObject:@" "];
+    }
+    
     //int index=0;
     int x=100;
     for(int i=0;i<movielen; i++)
@@ -45,36 +66,49 @@ float movielen;
     }
     
     
-    /* 
-     
-     self.brick_array = [[NSMutableArray alloc] init];
-     int x=20, y=40;
-     int index = 0;
-     
-     
-     for(int i=0;i<10;i++)
-     {
-     for(int j=0; j<5;j++)
-     {
-     brick = [[UIView alloc] initWithFrame:CGRectMake(x, y,60,15)];
-     [self.brick_array addObject:brick];
-     [self addSubview:brick_array[index]];
-     // [brick_array[index] setBackgroundColor:[[UIColor alloc] initWithRed:arc4random()%256/256.0 green:arc4random()%256/256.0 blue:arc4random()%256/256.0 alpha:1.0]];
-     [brick_array[index] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"brick.png"]] ];
-     x=x+60;
-     index++;
-     }
-     x=20;y=y+20;
-     
-     }
+ 
 
      
-     */
+    
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)readFile
+{
+    NSBundle *mainBundle = [NSBundle mainBundle];
+    
+    NSString *filePath = [mainBundle pathForResource:@"data" ofType:@"txt"];
+    NSStringEncoding encoding;
+    NSError *error;
+    NSString *fileContents = [[NSString alloc] initWithContentsOfFile:filePath
+                                                         usedEncoding:&encoding
+                                                                error:&error];
+    
+    //NSLog(@"filecontents:  %@",fileContents);
+    
+    
+    NSArray* rows = [fileContents componentsSeparatedByString:@"\n"];
+    int numofrows = rows.count-1;
+    randomMovieNo = [self getRandomNumberBetween:0 to:numofrows];
+    
+    while(!((randomMovieNo>=0) && (randomMovieNo <=numofrows)))
+    {
+         randomMovieNo = [self getRandomNumberBetween:0 to:numofrows];
+    }
+    
+    if((randomMovieNo>=0) && (randomMovieNo <=numofrows))
+    {
+        movie=[rows objectAtIndex:randomMovieNo];
+    }
+        
+    
+    
+}
 
-
+-(int)getRandomNumberBetween:(int)from to:(int)to {
+    
+    return (int)from + arc4random() % (to-from+1);
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -84,7 +118,8 @@ float movielen;
 }
 - (IBAction)ButtonAction:(id)sender {
     NSInteger tagval = [sender tag];
-    
+    if(Gameover==0)
+    {
     switch(tagval)
     {
         case 0:
@@ -199,7 +234,7 @@ float movielen;
             break;
     }
     [self checkHit];
-    
+    }//gameover condition ends
     
 }
 
@@ -214,20 +249,91 @@ float movielen;
         if([movie characterAtIndex:i]==text)
         {
             [movie_array[i] setBackgroundColor:[UIColor colorWithPatternImage:img] ];
-             // [self.view addSubview:movie_array[i]];
-            //NSLog(@"letter found");
+            //[result_array replaceObjectAtIndex:i withObject:movie_array];
+            
+            [result_array setObject:[temparray objectAtIndex:i] atIndexedSubscript:i];
+            
+            //NSString *temp=[movie characterAtIndex:i];
+            //[result_array[i] = text];
+           // phone = [self removeNonNumbers:phone];
+            //[phoneNumbers replaceObjectAtIndex:i withObject:phone];
+            // [self.view addSubview:movie_array[i]];
+            
+            //[array setObject:value atIndexedSubscript:i];
+            NSLog(@"letter found");
             hit =1;
+            letterhit=1;
             break;
         }
-    }
+       
+    }//for loop ends
     
     if(hit ==0)
     {
+         misscount++;
         //draw hangman
-        head.hidden=NO;
+        switch(misscount)
+        {
+            case 1:
+                head.hidden=NO;
+                break;
+            case 2:
+                lefthand.hidden=NO;
+                break;
+            case 3:
+                righthand.hidden=NO;
+            case 4:
+                back.hidden=NO;
+                break;
+            case 5:
+                leftleg.hidden=NO;
+                break;
+            case 6:
+                rightleg.hidden=NO;
+                break;
+            default:
+                break;
+        }
     }
+    
+    [self checkResult];
 }
 
+-(void)checkResult{
+    NSString *tempval=@"", *result=@"";
+   if(letterhit==1)
+   {
+        for(int i=0;i<movielen;i++)
+        {
+            tempval=[result_array objectAtIndex:i];
+            result = [result stringByAppendingString:tempval];
+        }
+   }
+    
+    if(misscount<6)
+    {
+        if(result==movie)
+        {
+            [winnerlbl setText:@"YOU WON !!" ];
+            winnerlbl.hidden=NO;
+        }
+    }else{
+        
+        if(misscount>=6)
+        {
+            //you lost
+            [winnerlbl setText:@"YOU LOST !!" ];
+            winnerlbl.hidden=NO;
+           
+           // NSNumber *no = [NSNumber numberWithBool:NO];
+           // [elementCollection setValue:no forKey:@"enabled"];
+            
+            //[ButtonArray setValue:@"YES" forKey:@"enabled"];
+            Gameover=1;
+            
+        }
+    }
 
+}
 
 @end
