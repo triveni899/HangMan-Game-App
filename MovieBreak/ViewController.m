@@ -17,6 +17,7 @@
 NSString *movie,*result;
 UIView *view;
 NSMutableArray *movie_array,*result_array;
+NSString *fileContents;
 
 char text;
 UIImage *img;
@@ -33,15 +34,39 @@ NSMutableArray *temparray;
     
     [self.view setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"MovieNight.jpg"]]];
     
-     [self readFile];
+    [self readFile];
     
     
     //movie=[NSString stringWithFormat:@"CAR"];
     //NSMutableString *length=[NSString stringWithFormat:@"%.2d", movie.length];
+   
+    [self reset];
+    
+ 
+
+     
+    
+    // Do any additional setup after loading the view, typically from a nib.
+}
+
+-(void)reset
+{
+    [self getMovieName];
+    
+
+    
+    winnerlbl.hidden=YES;
+    head.hidden=YES;
+    lefthand.hidden=YES;
+    righthand.hidden=YES;
+    back.hidden=YES;
+    leftleg.hidden=YES;
+    rightleg.hidden=YES;
+    
+    
     movielen = movie.length;
     movie_array=[[NSMutableArray alloc]init];
     result_array=[[NSMutableArray alloc] init];
-    winnerlbl.hidden=YES;
     
     
     temparray = [NSMutableArray array];
@@ -64,13 +89,26 @@ NSMutableArray *temparray;
         
         x=x+30;
     }
-    
-    
- 
+}
 
-     
+-(void)getMovieName{
     
-    // Do any additional setup after loading the view, typically from a nib.
+    NSArray* rows = [fileContents componentsSeparatedByString:@"\n"];
+    int numofrows = rows.count-1;
+    randomMovieNo = [self getRandomNumberBetween:0 to:numofrows];
+    
+    while(!((randomMovieNo>=0) && (randomMovieNo <=numofrows)))
+    {
+        randomMovieNo = [self getRandomNumberBetween:0 to:numofrows];
+    }
+    
+    if((randomMovieNo>=0) && (randomMovieNo <=numofrows))
+    {
+        movie=[rows objectAtIndex:randomMovieNo];
+    }else
+    {
+        movie=@"INCEPTION";
+    }
 }
 
 -(void)readFile
@@ -80,27 +118,14 @@ NSMutableArray *temparray;
     NSString *filePath = [mainBundle pathForResource:@"data" ofType:@"txt"];
     NSStringEncoding encoding;
     NSError *error;
-    NSString *fileContents = [[NSString alloc] initWithContentsOfFile:filePath
+    fileContents = [[NSString alloc] initWithContentsOfFile:filePath
                                                          usedEncoding:&encoding
                                                                 error:&error];
     
     //NSLog(@"filecontents:  %@",fileContents);
     
-    
-    NSArray* rows = [fileContents componentsSeparatedByString:@"\n"];
-    int numofrows = rows.count-1;
-    randomMovieNo = [self getRandomNumberBetween:0 to:numofrows];
-    
-    while(!((randomMovieNo>=0) && (randomMovieNo <=numofrows)))
-    {
-         randomMovieNo = [self getRandomNumberBetween:0 to:numofrows];
-    }
-    
-    if((randomMovieNo>=0) && (randomMovieNo <=numofrows))
-    {
-        movie=[rows objectAtIndex:randomMovieNo];
-    }
-        
+   
+   
     
     
 }
@@ -278,16 +303,21 @@ NSMutableArray *temparray;
                 head.hidden=NO;
                 break;
             case 2:
+                 back.hidden=NO;
+                break;
+                
+            case 3:
                 lefthand.hidden=NO;
                 break;
-            case 3:
-                righthand.hidden=NO;
+                
             case 4:
-                back.hidden=NO;
+                 righthand.hidden=NO;
                 break;
+                
             case 5:
                 leftleg.hidden=NO;
                 break;
+                
             case 6:
                 rightleg.hidden=NO;
                 break;
@@ -334,6 +364,13 @@ NSMutableArray *temparray;
         }
     }
 
+}
+- (IBAction)Newgame:(id)sender {
+    
+    [self reset];
+    misscount=0;
+    Gameover=0;
+    letterhit=0;
 }
 
 @end

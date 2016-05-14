@@ -10,6 +10,7 @@
 		E407D9D21CE78DD8008A49AC /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = E407D9D11CE78DD8008A49AC /* data.txt */; };
 		E407D9D61CE7C146008A49AC /* winner3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E407D9D51CE7C146008A49AC /* winner3.jpg */; };
 		E407D9DA1CE7C3B2008A49AC /* thewin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E407D9D91CE7C3B2008A49AC /* thewin.jpg */; };
+		E407D9DE1CE7E88A008A49AC /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = E407D9DD1CE7E88A008A49AC /* reset.png */; };
 		E4A8B4241CE435F900C27AFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A8B4231CE435F900C27AFB /* main.m */; };
 		E4A8B4271CE435F900C27AFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A8B4261CE435F900C27AFB /* AppDelegate.m */; };
 		E4A8B42A1CE435F900C27AFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A8B4291CE435F900C27AFB /* ViewController.m */; };
@@ -126,6 +127,7 @@
 		E407D9D11CE78DD8008A49AC /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data.txt; path = ../data.txt; sourceTree = "<group>"; };
 		E407D9D51CE7C146008A49AC /* winner3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winner3.jpg; sourceTree = "<group>"; };
 		E407D9D91CE7C3B2008A49AC /* thewin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thewin.jpg; sourceTree = "<group>"; };
+		E407D9DD1CE7E88A008A49AC /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
 		E4A8B41F1CE435F900C27AFB /* MovieBreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A8B4231CE435F900C27AFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4A8B4251CE435F900C27AFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -297,6 +299,7 @@
 				E4A8B4591CE43AB200C27AFB /* moviewall.jpg */,
 				E4CDA9371CE663C80061D9CC /* ring.jpg */,
 				E4CDA94B1CE6742C0061D9CC /* z_gold-2.png */,
+				E407D9DD1CE7E88A008A49AC /* reset.png */,
 				E4CDA94C1CE6742C0061D9CC /* y_gold-2.png */,
 				E407D9D91CE7C3B2008A49AC /* thewin.jpg */,
 				E4CDA94D1CE6742C0061D9CC /* x_gold-2.png */,
@@ -517,6 +520,7 @@
 				E4CDA90E1CE64D7C0061D9CC /* p_gold.png in Resources */,
 				E4CDA90C1CE64D7C0061D9CC /* r_gold.png in Resources */,
 				E4CDA97B1CE6742C0061D9CC /* c_gold-2.png in Resources */,
+				E407D9DE1CE7E88A008A49AC /* reset.png in Resources */,
 				E4CDA9701CE6742C0061D9CC /* n_gold-2.png in Resources */,
 				E4CDA9761CE6742C0061D9CC /* h_gold-2.png in Resources */,
 				E4A8B45A1CE43AB200C27AFB /* moviewall.jpg in Resources */,
