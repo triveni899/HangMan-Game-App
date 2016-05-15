@@ -11,6 +11,15 @@
 		E407D9D61CE7C146008A49AC /* winner3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E407D9D51CE7C146008A49AC /* winner3.jpg */; };
 		E407D9DA1CE7C3B2008A49AC /* thewin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E407D9D91CE7C3B2008A49AC /* thewin.jpg */; };
 		E407D9DE1CE7E88A008A49AC /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = E407D9DD1CE7E88A008A49AC /* reset.png */; };
+		E407D9E01CE7F5DF008A49AC /* front.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E407D9DF1CE7F5DF008A49AC /* front.jpg */; };
+		E407D9E21CE7F79E008A49AC /* play.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E407D9E11CE7F79E008A49AC /* play.jpg */; };
+		E407D9E41CE7FA83008A49AC /* Movie-Night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E407D9E31CE7FA83008A49AC /* Movie-Night.jpg */; };
+		E407D9E61CE7FB24008A49AC /* movie_night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E407D9E51CE7FB24008A49AC /* movie_night.jpg */; };
+		E407D9E81CE7FB59008A49AC /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = E407D9E71CE7FB59008A49AC /* play.png */; };
+		E407D9EA1CE7FC91008A49AC /* blackplay.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E407D9E91CE7FC91008A49AC /* blackplay.jpg */; };
+		E407D9EC1CE7FDC5008A49AC /* Play-button.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E407D9EB1CE7FDC5008A49AC /* Play-button.jpg */; };
+		E407D9EE1CE7FE91008A49AC /* gPlay.png in Resources */ = {isa = PBXBuildFile; fileRef = E407D9ED1CE7FE91008A49AC /* gPlay.png */; };
+		E407D9F01CE7FFE2008A49AC /* playNow.png in Resources */ = {isa = PBXBuildFile; fileRef = E407D9EF1CE7FFE2008A49AC /* playNow.png */; };
 		E4A8B4241CE435F900C27AFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A8B4231CE435F900C27AFB /* main.m */; };
 		E4A8B4271CE435F900C27AFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A8B4261CE435F900C27AFB /* AppDelegate.m */; };
 		E4A8B42A1CE435F900C27AFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4A8B4291CE435F900C27AFB /* ViewController.m */; };
@@ -128,6 +137,15 @@
 		E407D9D51CE7C146008A49AC /* winner3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winner3.jpg; sourceTree = "<group>"; };
 		E407D9D91CE7C3B2008A49AC /* thewin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = thewin.jpg; sourceTree = "<group>"; };
 		E407D9DD1CE7E88A008A49AC /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
+		E407D9DF1CE7F5DF008A49AC /* front.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = front.jpg; sourceTree = "<group>"; };
+		E407D9E11CE7F79E008A49AC /* play.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = play.jpg; sourceTree = "<group>"; };
+		E407D9E31CE7FA83008A49AC /* Movie-Night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Movie-Night.jpg"; sourceTree = "<group>"; };
+		E407D9E51CE7FB24008A49AC /* movie_night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = movie_night.jpg; sourceTree = "<group>"; };
+		E407D9E71CE7FB59008A49AC /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		E407D9E91CE7FC91008A49AC /* blackplay.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = blackplay.jpg; sourceTree = "<group>"; };
+		E407D9EB1CE7FDC5008A49AC /* Play-button.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Play-button.jpg"; sourceTree = "<group>"; };
+		E407D9ED1CE7FE91008A49AC /* gPlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gPlay.png; sourceTree = "<group>"; };
+		E407D9EF1CE7FFE2008A49AC /* playNow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playNow.png; sourceTree = "<group>"; };
 		E4A8B41F1CE435F900C27AFB /* MovieBreak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBreak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A8B4231CE435F900C27AFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E4A8B4251CE435F900C27AFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -297,9 +315,18 @@
 			isa = PBXGroup;
 			children = (
 				E4A8B4591CE43AB200C27AFB /* moviewall.jpg */,
+				E407D9EF1CE7FFE2008A49AC /* playNow.png */,
+				E407D9E71CE7FB59008A49AC /* play.png */,
 				E4CDA9371CE663C80061D9CC /* ring.jpg */,
+				E407D9ED1CE7FE91008A49AC /* gPlay.png */,
+				E407D9EB1CE7FDC5008A49AC /* Play-button.jpg */,
 				E4CDA94B1CE6742C0061D9CC /* z_gold-2.png */,
+				E407D9E91CE7FC91008A49AC /* blackplay.jpg */,
+				E407D9E51CE7FB24008A49AC /* movie_night.jpg */,
+				E407D9E31CE7FA83008A49AC /* Movie-Night.jpg */,
+				E407D9E11CE7F79E008A49AC /* play.jpg */,
 				E407D9DD1CE7E88A008A49AC /* reset.png */,
+				E407D9DF1CE7F5DF008A49AC /* front.jpg */,
 				E4CDA94C1CE6742C0061D9CC /* y_gold-2.png */,
 				E407D9D91CE7C3B2008A49AC /* thewin.jpg */,
 				E4CDA94D1CE6742C0061D9CC /* x_gold-2.png */,
@@ -536,9 +563,11 @@
 				E4CDA90B1CE64D7C0061D9CC /* s_gold.png in Resources */,
 				E4CDA9191CE64D7C0061D9CC /* e_gold.png in Resources */,
 				E4CDA9041CE64D7C0061D9CC /* z_gold.png in Resources */,
+				E407D9E61CE7FB24008A49AC /* movie_night.jpg in Resources */,
 				E4CDA9081CE64D7C0061D9CC /* v_gold.png in Resources */,
 				E4CDA9721CE6742C0061D9CC /* l_gold-2.png in Resources */,
 				E4CDA9341CE65F690061D9CC /* reel.png in Resources */,
+				E407D9E81CE7FB59008A49AC /* play.png in Resources */,
 				E4CDA92C1CE65C6D0061D9CC /* hand3.png in Resources */,
 				E4CDA9681CE6742C0061D9CC /* v_gold-2.png in Resources */,
 				E4CDA9771CE6742C0061D9CC /* g_gold-2.png in Resources */,
@@ -559,19 +588,23 @@
 				E4CDA9481CE66DA10061D9CC /* s1a.png in Resources */,
 				E407D9DA1CE7C3B2008A49AC /* thewin.jpg in Resources */,
 				E4CDA8EA1CE64A440061D9CC /* b_gold.png in Resources */,
+				E407D9F01CE7FFE2008A49AC /* playNow.png in Resources */,
 				E4CDA8DC1CE446560061D9CC /* b.png in Resources */,
 				E4CDA9301CE65E230061D9CC /* reel3.png in Resources */,
 				E4CDA90F1CE64D7C0061D9CC /* o_gold.png in Resources */,
+				E407D9E41CE7FA83008A49AC /* Movie-Night.jpg in Resources */,
 				E4CDA9151CE64D7C0061D9CC /* i_gold.png in Resources */,
 				E4CDA8E81CE6447C0061D9CC /* MovieNight.jpg in Resources */,
 				E4A8B42F1CE435F900C27AFB /* Assets.xcassets in Resources */,
 				E4CDA9691CE6742C0061D9CC /* u_gold-2.png in Resources */,
+				E407D9EE1CE7FE91008A49AC /* gPlay.png in Resources */,
 				E4CDA96D1CE6742C0061D9CC /* q_gold-2.png in Resources */,
 				E4CDA9071CE64D7C0061D9CC /* w_gold.png in Resources */,
 				E4CDA8DE1CE454800061D9CC /* reel2.png in Resources */,
 				E4CDA92E1CE65D8A0061D9CC /* reelnew.png in Resources */,
 				E4CDA9181CE64D7C0061D9CC /* f_gold.png in Resources */,
 				E4CDA97A1CE6742C0061D9CC /* d_gold-2.png in Resources */,
+				E407D9E21CE7F79E008A49AC /* play.jpg in Resources */,
 				E4CDA9651CE6742C0061D9CC /* y_gold-2.png in Resources */,
 				E4CDA96E1CE6742C0061D9CC /* p_gold-2.png in Resources */,
 				E4CDA91E1CE656D00061D9CC /* pumpkin.png in Resources */,
@@ -587,6 +620,7 @@
 				E4CDA9381CE663C80061D9CC /* ring.jpg in Resources */,
 				E4CDA9661CE6742C0061D9CC /* x_gold-2.png in Resources */,
 				E4CDA9671CE6742C0061D9CC /* w_gold-2.png in Resources */,
+				E407D9E01CE7F5DF008A49AC /* front.jpg in Resources */,
 				E4CDA8E01CE456970061D9CC /* strip.png in Resources */,
 				E4CDA9091CE64D7C0061D9CC /* u_gold.png in Resources */,
 				E4CDA96C1CE6742C0061D9CC /* r_gold-2.png in Resources */,
@@ -598,6 +632,7 @@
 				E4CDA9441CE66C900061D9CC /* rings.png in Resources */,
 				E4CDA96B1CE6742C0061D9CC /* s_gold-2.png in Resources */,
 				E4CDA9781CE6742C0061D9CC /* f_gold-2.png in Resources */,
+				E407D9EC1CE7FDC5008A49AC /* Play-button.jpg in Resources */,
 				E4CDA9161CE64D7C0061D9CC /* h_gold.png in Resources */,
 				E4CDA96A1CE6742C0061D9CC /* t_gold-2.png in Resources */,
 				E4A8B42D1CE435F900C27AFB /* Main.storyboard in Resources */,
@@ -605,6 +640,7 @@
 				E4CDA9241CE6590B0061D9CC /* leg2.png in Resources */,
 				E407D9D21CE78DD8008A49AC /* data.txt in Resources */,
 				E4CDA96F1CE6742C0061D9CC /* o_gold-2.png in Resources */,
+				E407D9EA1CE7FC91008A49AC /* blackplay.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

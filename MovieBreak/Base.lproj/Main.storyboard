@@ -1,10 +1,44 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1uL-3L-mK6">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
     </dependencies>
     <scenes>
+        <!--View Controller-->
+        <scene sceneID="y2p-Nk-TXG">
+            <objects>
+                <viewController id="1uL-3L-mK6" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ZXw-GE-vVd"/>
+                        <viewControllerLayoutGuide type="bottom" id="nxT-Ff-4sT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9Fb-KE-3Nq">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="movie_night.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Erc-s8-wWt">
+                                <rect key="frame" x="0.0" y="-13" width="676" height="613"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WVH-mz-gxW">
+                                <rect key="frame" x="424" y="28" width="95" height="63"/>
+                                <state key="normal" backgroundImage="playNow.png"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" id="I5a-H0-xDu"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="presentation" id="WE6-N2-ATS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ccl-Ey-pKJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-463" y="314"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -359,10 +393,12 @@
         <image name="leg1.png" width="256" height="256"/>
         <image name="leg2.png" width="256" height="256"/>
         <image name="m_gold.png" width="128" height="128"/>
+        <image name="movie_night.jpg" width="700" height="525"/>
         <image name="n_gold.png" width="128" height="128"/>
         <image name="o_gold.png" width="128" height="128"/>
         <image name="orangea.png" width="16" height="16"/>
         <image name="p_gold.png" width="128" height="128"/>
+        <image name="playNow.png" width="363" height="76"/>
         <image name="pumpkin.png" width="128" height="128"/>
         <image name="q_gold.png" width="128" height="128"/>
         <image name="r_gold.png" width="128" height="128"/>
@@ -377,4 +413,7 @@
         <image name="y_gold.png" width="128" height="128"/>
         <image name="z_gold.png" width="128" height="128"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="WE6-N2-ATS"/>
+    </inferredMetricsTieBreakers>
 </document>
