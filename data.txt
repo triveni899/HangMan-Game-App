@@ -1,3 +1,66 @@
-IRONMAN
-SPIDERMAN
-HERCULES
+The Shawshank Redemption
+The Godfather
+The Dark Knight
+The Lord of the Rings
+The Good the Bad and the Ugly
+Fight Club
+Star Wars
+Forrest Gump
+Inception
+Goodfellas
+The Matrix
+Seven Samurai
+The Silence of the Lambs
+Life Is Beautiful
+Interstellar
+Casablanca
+Psycho
+City Lights
+Terminator
+The Departed
+Gladiator
+Memento
+The Prestige
+The Lion King
+The Dark Knight Rises
+American Beauty
+Princess Mononoke
+Oldboy
+Citizen Kane
+Braveheart
+Captain America
+Full Metal Jacket
+Toy Story
+Batman Begins
+The Hunt
+Die Hard
+Warrior
+The Wolf of Wall Street
+A Beautiful Mind
+How to Train Your Dragon
+The Sixth Sense
+Deadpool
+Finding Nemo
+Into the Wild
+Gone Girl
+It Happened One Night
+Rush
+Stand by Me
+Shutter Island
+The Grand Budapest Hotel
+Million Dollar Baby
+Jurassic Park
+Gandhi
+The Bourne Ultimatum
+Rocky
+Sin City
+Jaws
+The Imitation Game
+The Avengers
+Catch Me If You Can
+Guardians of the Galaxy
+The Help
+Beauty and the Beast
+
+
+

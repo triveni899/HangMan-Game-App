@@ -79,15 +79,27 @@ NSMutableArray *temparray;
     }
     
     //int index=0;
-    int x=100;
+    int x=100; int y=10;
     for(int i=0;i<movielen; i++)
     {
-        view=[[UIView alloc] initWithFrame:CGRectMake(x, 10, 30, 30)];
+        
+        view=[[UIView alloc] initWithFrame:CGRectMake(x, y, 30, 30)];
         [movie_array addObject:view];
         [movie_array[i] setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"rings.png"]] ];
         [self.view addSubview:movie_array[i]];
         
+        
+        
         x=x+30;
+        
+        if(((int)i%10)==0)
+        {
+            if(i>0)
+            {
+                y=y+30;
+                x=100;
+            }
+        }
     }
 }
 
@@ -95,12 +107,7 @@ NSMutableArray *temparray;
     
     NSArray* rows = [fileContents componentsSeparatedByString:@"\n"];
     int numofrows = rows.count-1;
-    randomMovieNo = [self getRandomNumberBetween:0 to:numofrows];
-    
-    while(!((randomMovieNo>=0) && (randomMovieNo <=numofrows)))
-    {
-        randomMovieNo = [self getRandomNumberBetween:0 to:numofrows];
-    }
+    randomMovieNo =  arc4random_uniform(numofrows);
     
     if((randomMovieNo>=0) && (randomMovieNo <=numofrows))
     {
@@ -109,6 +116,9 @@ NSMutableArray *temparray;
     {
         movie=@"INCEPTION";
     }
+    movie=[movie uppercaseString];
+    NSString *temp = movie;
+    movie = [temp stringByReplacingOccurrencesOfString:@" " withString:@""];
 }
 
 -(void)readFile
@@ -288,7 +298,7 @@ NSMutableArray *temparray;
             NSLog(@"letter found");
             hit =1;
             letterhit=1;
-            break;
+            
         }
        
     }//for loop ends
@@ -342,10 +352,13 @@ NSMutableArray *temparray;
     
     if(misscount<6)
     {
-        if(result==movie)
+      
+        
+        if([result isEqualToString:movie])
         {
             [winnerlbl setText:@"YOU WON !!" ];
             winnerlbl.hidden=NO;
+             Gameover=1;
         }
     }else{
         
