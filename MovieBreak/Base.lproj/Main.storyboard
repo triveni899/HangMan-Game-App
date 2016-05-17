@@ -51,20 +51,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2y-oJ-AlQ">
-                                <rect key="frame" x="115" y="366" width="33" height="18"/>
-                                <state key="normal" backgroundImage="A_green.png"/>
-                                <connections>
-                                    <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="96V-Zu-I2x"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2O-pY-rl1">
-                                <rect key="frame" x="76" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="c_gold.png"/>
-                                <connections>
-                                    <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PqB-8A-xOu"/>
-                                </connections>
-                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MovieNight.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4TY-cm-cq1">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWo-X2-RUO">
                                 <rect key="frame" x="145" y="366" width="33" height="18"/>
                                 <state key="normal" backgroundImage="B-green.png"/>
@@ -331,14 +320,24 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MovieNight.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4TY-cm-cq1">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2y-oJ-AlQ">
+                                <rect key="frame" x="118" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="A_green.png"/>
+                                <connections>
+                                    <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="96V-Zu-I2x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g2O-pY-rl1">
+                                <rect key="frame" x="76" y="351" width="33" height="18"/>
+                                <state key="normal" backgroundImage="c_gold.png"/>
+                                <connections>
+                                    <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PqB-8A-xOu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="g2O-pY-rl1"/>
                                 <exclude reference="R2U-zv-ZHk"/>
                                 <exclude reference="5pf-Nf-VaG"/>
                                 <exclude reference="J7u-2f-2qJ"/>
@@ -350,6 +349,7 @@
                                 <exclude reference="PLu-6t-Nj2"/>
                                 <exclude reference="kIU-qG-yu8"/>
                                 <exclude reference="MAS-rG-cqX"/>
+                                <exclude reference="g2O-pY-rl1"/>
                             </mask>
                         </variation>
                     </view>

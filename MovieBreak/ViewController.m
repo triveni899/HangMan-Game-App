@@ -359,7 +359,7 @@ NSMutableArray *temparray;
         if([result isEqualToString:movie])
         {
             //[winnerlbl setText:@"Congrats !!" ];
-            winnerlbl.hidden=NO;
+           // winnerlbl.hidden=NO;
             winView.image=[UIImage imageNamed:@"win_icon.png"];
             winView.hidden=NO;
              Gameover=1;
