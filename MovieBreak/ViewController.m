@@ -27,7 +27,8 @@ static int misscount=0,letterhit=0;
 static int Gameover=0;
 NSMutableArray *temparray;
 
-@synthesize imageView,head,winnerlbl,righthand,lefthand,rightleg,leftleg,back,ButtonArray;
+@synthesize head,winnerlbl,righthand,lefthand,rightleg,leftleg,back,ButtonArray;
+@synthesize winView;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -53,7 +54,7 @@ NSMutableArray *temparray;
 {
     [self getMovieName];
     
-
+    winView.hidden=YES;
     
     winnerlbl.hidden=YES;
     head.hidden=YES;
@@ -159,108 +160,109 @@ NSMutableArray *temparray;
     {
         case 0:
             text='A';
-            img=[UIImage imageNamed:@"a_gold-2.png"];
+            //img=[UIImage imageNamed:@"a_gold-2.png"];
+            img=[UIImage imageNamed:@"A_green.png"];
            
             break;
         case 1:
             text='B';
-            img=[UIImage imageNamed:@"b_gold-2.png"];
+            img=[UIImage imageNamed:@"B-green.png"];
             break;
         case 2:
             text='C';
-            img=[UIImage imageNamed:@"c_gold-2.png"];
+            img=[UIImage imageNamed:@"C-green.png"];
             break;
         case 3:
             text='D';
-            img=[UIImage imageNamed:@"d_gold-2.png"];
+             img=[UIImage imageNamed:@"D-green.png"];
             break;
         case 4:
             text='E';
-            img=[UIImage imageNamed:@"e_gold-2.png"];
+             img=[UIImage imageNamed:@"E-green.png"];
             break;
         case 5:
             text='F';
-            img=[UIImage imageNamed:@"f_gold-2.png"];
+            img=[UIImage imageNamed:@"F-green.png"];
             break;
         case 6:
             text='G';
-            img=[UIImage imageNamed:@"g_gold-2.png"];
+            img=[UIImage imageNamed:@"G-green.png"];
             break;
         case 7:
             text='H';
-            img=[UIImage imageNamed:@"h_gold-2.png"];
+            img=[UIImage imageNamed:@"H-green.png"];
             break;
         case 8:
             text='I';
-            img=[UIImage imageNamed:@"i_gold-2.png"];
+            img=[UIImage imageNamed:@"I-green.png"];
             break;
         case 9:
             text='J';
-            img=[UIImage imageNamed:@"j_gold-2.png"];
+             img=[UIImage imageNamed:@"J-green.png"];
             break;
         case 10:
             text='K';
-            img=[UIImage imageNamed:@"k_gold-2.png"];
+             img=[UIImage imageNamed:@"K-green.png"];
             break;
         case 11:
             text='L';
-            img=[UIImage imageNamed:@"l_gold-2.png"];
+             img=[UIImage imageNamed:@"L-green.png"];
             break;
         case 12:
             text='M';
-            img=[UIImage imageNamed:@"m_gold-2.png"];
+           img=[UIImage imageNamed:@"M-green.png"];
             break;
         case 13:
             text='N';
-            img=[UIImage imageNamed:@"n_gold-2.png"];
+             img=[UIImage imageNamed:@"N-green.png"];
             break;
         case 14:
             text='O';
-            img=[UIImage imageNamed:@"o_gold-2.png"];
+            img=[UIImage imageNamed:@"O-green.png"];
             break;
         case 15:
             text='P';
-            img=[UIImage imageNamed:@"p_gold-2.png"];
+             img=[UIImage imageNamed:@"P-green.png"];
             break;
         case 16:
             text='Q';
-            img=[UIImage imageNamed:@"q_gold-2.png"];
+             img=[UIImage imageNamed:@"Q-green.png"];
             break;
         case 17:
             text='R';
-            img=[UIImage imageNamed:@"r_gold-2.png"];
+            img=[UIImage imageNamed:@"R-green.png"];
             break;
         case 18:
             text='S';
-            img=[UIImage imageNamed:@"s_gold-2.png"];
+             img=[UIImage imageNamed:@"S-green.png"];
             break;
         case 19:
             text='T';
-            img=[UIImage imageNamed:@"t_gold-2.png"];
+            img=[UIImage imageNamed:@"T-green.png"];
             break;
         case 20:
             text='U';
-            img=[UIImage imageNamed:@"u_gold-2.png"];
+             img=[UIImage imageNamed:@"U-green.png"];
             break;
         case 21:
             text='V';
-            img=[UIImage imageNamed:@"v_gold-2.png"];
+           img=[UIImage imageNamed:@"V-green.png"];
             break;
         case 22:
             text='W';
-            img=[UIImage imageNamed:@"w_gold-2.png"];
+            img=[UIImage imageNamed:@"W-green.png"];
             break;
         case 23:
             text='X';
-            img=[UIImage imageNamed:@"x_gold-2.png"];
+             img=[UIImage imageNamed:@"X-green.png"];
             break;
         case 24:
             text='Y';
-            img=[UIImage imageNamed:@"y_gold-2.png"];
+             img=[UIImage imageNamed:@"Y-green.png"];
             break;
         case 25:
             text='Z';
-            img=[UIImage imageNamed:@"z_gold-2.png"];
+             img=[UIImage imageNamed:@"Z-green.png"];
    
             break;
 
@@ -356,8 +358,10 @@ NSMutableArray *temparray;
         
         if([result isEqualToString:movie])
         {
-            [winnerlbl setText:@"YOU WON !!" ];
+            //[winnerlbl setText:@"Congrats !!" ];
             winnerlbl.hidden=NO;
+            winView.image=[UIImage imageNamed:@"win_icon.png"];
+            winView.hidden=NO;
              Gameover=1;
         }
     }else{
@@ -365,8 +369,11 @@ NSMutableArray *temparray;
         if(misscount>=6)
         {
             //you lost
-            [winnerlbl setText:@"YOU LOST !!" ];
+            [winnerlbl setText:@"Game Over" ];
             winnerlbl.hidden=NO;
+            winView.image=[UIImage imageNamed:@"plose.png"];
+            winView.hidden=NO;
+            [self showResult];
            
            // NSNumber *no = [NSNumber numberWithBool:NO];
            // [elementCollection setValue:no forKey:@"enabled"];
@@ -378,12 +385,155 @@ NSMutableArray *temparray;
     }
 
 }
+
+-(void)showResult{
+    for(int i=0;i<movielen;i++)
+    {
+        [self takeLetter:[movie characterAtIndex:i] join:i];
+    }
+    
+}
+
+
+-(void)takeLetter:(char)letter join:(int)i{
+    switch(letter)
+    {
+        case 'A':
+           
+          
+            img=[UIImage imageNamed:@"A_green.png"];
+            
+            break;
+        case 'B':
+           
+            img=[UIImage imageNamed:@"B-green.png"];
+            break;
+        case 'C':
+            
+            img=[UIImage imageNamed:@"C-green.png"];
+            break;
+        case 'D':
+            
+            img=[UIImage imageNamed:@"D-green.png"];
+            break;
+        case 'E':
+            img=[UIImage imageNamed:@"E-green.png"];
+            break;
+        case 'F':
+            img=[UIImage imageNamed:@"F-green.png"];
+            break;
+            
+        case 'G':
+            img=[UIImage imageNamed:@"G-green.png"];
+            break;
+            
+        case 'H':
+            img=[UIImage imageNamed:@"H-green.png"];
+            break;
+            
+        case 'I':
+            img=[UIImage imageNamed:@"I-green.png"];
+            break;
+            
+        case 'J':
+            img=[UIImage imageNamed:@"J-green.png"];
+            break;
+            
+        case 'K':
+            img=[UIImage imageNamed:@"K-green.png"];
+            break;
+            
+        case 'L':
+            img=[UIImage imageNamed:@"L-green.png"];
+            break;
+            
+        case 'M':
+            img=[UIImage imageNamed:@"M-green.png"];
+            break;
+            
+        case 'N':
+            img=[UIImage imageNamed:@"N-green.png"];
+            break;
+            
+        case 'O':
+            img=[UIImage imageNamed:@"O-green.png"];
+            break;
+            
+        case 'P':
+            img=[UIImage imageNamed:@"P-green.png"];
+            break;
+            
+            
+        case 'Q':
+            img=[UIImage imageNamed:@"Q-green.png"];
+            break;
+            
+        case 'R':
+            img=[UIImage imageNamed:@"R-green.png"];
+            break;
+            
+        case 'S':
+            img=[UIImage imageNamed:@"S-green.png"];
+            break;
+            
+        case 'T':
+            img=[UIImage imageNamed:@"T-green.png"];
+            break;
+        
+            
+        case 'U':
+            img=[UIImage imageNamed:@"U-green.png"];
+            break;
+            
+        case 'V':
+            img=[UIImage imageNamed:@"V-green.png"];
+            break;
+            
+            
+        case 'W':
+            img=[UIImage imageNamed:@"W-green.png"];
+            break;
+            
+        case 'X':
+            img=[UIImage imageNamed:@"X-green.png"];
+            break;
+            
+        case 'Y':
+            img=[UIImage imageNamed:@"Y-green.png"];
+            break;
+            
+        case 'Z':
+            img=[UIImage imageNamed:@"Z-green.png"];
+            break;
+            
+            
+        default:
+            break;
+    }
+     [movie_array[i] setBackgroundColor:[UIColor colorWithPatternImage:img] ];
+
+}
 - (IBAction)Newgame:(id)sender {
     
-    [self reset];
+    
     misscount=0;
     Gameover=0;
     letterhit=0;
+    winView.hidden=YES;
+    
+       // [movie_array removeAllObjects];
+   
+    
+    for(UIView *tempview in movie_array)
+    {
+       
+        [tempview removeFromSuperview];
+    }
+    
+    
+    [movie_array removeAllObjects];
+    [self reset];
+   
 }
 
 @end

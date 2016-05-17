@@ -1,6 +1,7 @@
 The Shawshank Redemption
 The Godfather
 The Dark Knight
+The Dark Knight Rises
 The Lord of the Rings
 The Good the Bad and the Ugly
 Fight Club
@@ -9,30 +10,19 @@ Forrest Gump
 Inception
 Goodfellas
 The Matrix
-Seven Samurai
-The Silence of the Lambs
 Life Is Beautiful
 Interstellar
-Casablanca
-Psycho
-City Lights
 Terminator
 The Departed
 Gladiator
 Memento
-The Prestige
 The Lion King
 The Dark Knight Rises
 American Beauty
-Princess Mononoke
 Oldboy
-Citizen Kane
-Braveheart
 Captain America
-Full Metal Jacket
 Toy Story
 Batman Begins
-The Hunt
 Die Hard
 Warrior
 The Wolf of Wall Street
@@ -44,8 +34,6 @@ Finding Nemo
 Into the Wild
 Gone Girl
 It Happened One Night
-Rush
-Stand by Me
 Shutter Island
 The Grand Budapest Hotel
 Million Dollar Baby
@@ -55,12 +43,25 @@ The Bourne Ultimatum
 Rocky
 Sin City
 Jaws
-The Imitation Game
 The Avengers
 Catch Me If You Can
 Guardians of the Galaxy
-The Help
 Beauty and the Beast
+The Da Vinci Code
+National Treasure
+Cast Away
+The Aviator
+The Terminal
+The Social Network
+Titanic
+The Notebook
+Constantine
+A Walk to Remember
+The Bourne Identity
+The Bourne Supremacy
+The Bourne Ultimatum
+Serendipity
+XMen
 
 
 

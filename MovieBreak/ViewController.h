@@ -10,7 +10,8 @@
 
 @interface ViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+@property (weak, nonatomic) IBOutlet UIImageView *winView;
+
 @property (weak, nonatomic) IBOutlet UIImageView *head;
 @property (weak, nonatomic) IBOutlet UILabel *winnerlbl;
 @property (weak, nonatomic) IBOutlet UIImageView *lefthand;

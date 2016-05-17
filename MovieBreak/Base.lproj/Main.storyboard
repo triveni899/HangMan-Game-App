@@ -51,12 +51,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MovieNight.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4TY-cm-cq1">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2y-oJ-AlQ">
-                                <rect key="frame" x="20" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="a_gold.png"/>
+                                <rect key="frame" x="115" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="A_green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="96V-Zu-I2x"/>
                                 </connections>
@@ -69,155 +66,155 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IWo-X2-RUO">
-                                <rect key="frame" x="50" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="b_gold.png"/>
+                                <rect key="frame" x="145" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="B-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L5r-xu-H54"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5C8-rJ-ga7">
-                                <rect key="frame" x="165" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="f_gold.png"/>
+                                <rect key="frame" x="260" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="F-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5cC-Yl-VXP"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlp-Hv-izS">
-                                <rect key="frame" x="135" y="351" width="36" height="18"/>
-                                <state key="normal" backgroundImage="e_gold.png"/>
+                                <rect key="frame" x="230" y="366" width="36" height="18"/>
+                                <state key="normal" backgroundImage="E-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sjs-GU-qbk"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yiP-aI-ldy">
-                                <rect key="frame" x="108" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="d_gold.png"/>
+                                <rect key="frame" x="203" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="D-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UfW-Kv-g9Z"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iqj-vU-F49">
-                                <rect key="frame" x="223" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="h_gold.png"/>
+                                <rect key="frame" x="318" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="H-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Aae-mp-AIo"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7aT-sK-G8f">
-                                <rect key="frame" x="312" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="k_gold.png"/>
+                                <rect key="frame" x="407" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="K-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gNi-oO-OJx"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fwT-ok-NlV">
-                                <rect key="frame" x="282" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="j_gold.png"/>
+                                <rect key="frame" x="377" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="J-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ONe-1T-rlA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nX5-qo-MZi">
-                                <rect key="frame" x="253" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="i_gold.png"/>
+                                <rect key="frame" x="348" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="I-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sg8-x9-5Na"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vxg-fc-E19">
-                                <rect key="frame" x="344" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="l_gold.png"/>
+                                <rect key="frame" x="439" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="L-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5OW-CC-jE3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="14" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUV-fo-fXw">
-                                <rect key="frame" x="49" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="o_gold.png"/>
+                                <rect key="frame" x="144" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="O-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sMW-nD-PzM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="13" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZY2-DL-SZq">
-                                <rect key="frame" x="23" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="n_gold.png"/>
+                                <rect key="frame" x="118" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="N-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NNs-uX-Fvi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="17" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9nT-02-7oZ">
-                                <rect key="frame" x="138" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="r_gold.png"/>
+                                <rect key="frame" x="233" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="R-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1uG-uB-9co"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="16" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8fz-bu-ZL8">
-                                <rect key="frame" x="108" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="q_gold.png"/>
+                                <rect key="frame" x="203" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="Q-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5II-2M-u2d"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="15" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Dv-tU-fs5">
-                                <rect key="frame" x="80" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="p_gold.png"/>
+                                <rect key="frame" x="175" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="P-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QTz-08-GJw"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="18" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dow-SH-rwV">
-                                <rect key="frame" x="169" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="s_gold.png"/>
+                                <rect key="frame" x="264" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="S-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sv3-8A-aAv"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="19" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLQ-G6-sNS">
-                                <rect key="frame" x="196" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="t_gold.png"/>
+                                <rect key="frame" x="291" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="T-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="AN4-Rm-9U7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="22" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RTH-1S-1kv">
-                                <rect key="frame" x="287" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="w_gold.png"/>
+                                <rect key="frame" x="382" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="W-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qep-np-w9M"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="21" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcx-yH-5tg">
-                                <rect key="frame" x="257" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="v_gold.png"/>
+                                <rect key="frame" x="352" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="V-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zlz-Cc-We4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJ6-2n-KZC">
-                                <rect key="frame" x="228" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="u_gold.png"/>
+                                <rect key="frame" x="323" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="U-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="W6W-UJ-RYV"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="23" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="USq-u7-htG">
-                                <rect key="frame" x="319" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="x_gold.png"/>
+                                <rect key="frame" x="414" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="X-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cv1-HN-cSa"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="24" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pfc-dt-tKS">
-                                <rect key="frame" x="349" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="y_gold.png"/>
+                                <rect key="frame" x="444" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="Y-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uLh-nr-oDM"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="25" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sxj-aX-USL">
-                                <rect key="frame" x="379" y="372" width="33" height="18"/>
-                                <state key="normal" backgroundImage="z_gold.png"/>
+                                <rect key="frame" x="474" y="387" width="33" height="18"/>
+                                <state key="normal" backgroundImage="Z-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HIo-PQ-KfI"/>
                                 </connections>
@@ -226,8 +223,8 @@
                                 <rect key="frame" x="144" y="329" width="50" height="33"/>
                             </imageView>
                             <button opaque="NO" tag="12" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h6r-57-KbS">
-                                <rect key="frame" x="375" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="m_gold.png"/>
+                                <rect key="frame" x="470" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="M-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XaT-FG-LUy"/>
                                 </connections>
@@ -260,32 +257,19 @@
                                 <rect key="frame" x="551" y="275" width="12" height="39"/>
                             </imageView>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fZ0-93-4DL">
-                                <rect key="frame" x="196" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="g_gold.png"/>
+                                <rect key="frame" x="291" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="G-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tV8-AM-coA"/>
                                 </connections>
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ALY-iH-KTZ">
-                                <rect key="frame" x="80" y="351" width="33" height="18"/>
-                                <state key="normal" backgroundImage="c_gold-2.png"/>
+                                <rect key="frame" x="175" y="366" width="33" height="18"/>
+                                <state key="normal" backgroundImage="C-green.png"/>
                                 <connections>
                                     <action selector="ButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cZF-bp-i2o"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jc0-oS-LZp">
-                                <rect key="frame" x="257" y="293" width="241" height="63"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="You Won!!">
-                                        <attributes>
-                                            <color key="NSColor" red="0.50323241949081421" green="0.19498857855796814" blue="0.085884131491184235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="29" name="HoeflerText-Regular"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2OE-c6-d9V">
                                 <rect key="frame" x="516" y="8" width="84" height="56"/>
                                 <state key="normal" backgroundImage="reset.png"/>
@@ -293,6 +277,9 @@
                                     <action selector="Newgame:" destination="BYZ-38-t0r" eventType="touchUpInside" id="T72-Wh-vZ3"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="plose.png" translatesAutoresizingMaskIntoConstraints="NO" id="UgJ-OM-QuY">
+                                <rect key="frame" x="237" y="170" width="152" height="115"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSM-GP-y0C">
                                 <rect key="frame" x="526" y="43" width="46" height="37"/>
                                 <state key="normal" backgroundImage="orangea.png"/>
@@ -331,6 +318,22 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jc0-oS-LZp">
+                                <rect key="frame" x="264" y="186" width="145" height="58"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Game Over">
+                                        <attributes>
+                                            <color key="NSColor" red="0.00057381142687818886" green="0.20208333333333328" blue="0.00089032067458136993" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="24" name="MarkerFelt-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="MovieNight.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4TY-cm-cq1">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -358,6 +361,7 @@
                         <outlet property="leftleg" destination="0fS-CH-dy6" id="AWY-4i-vRN"/>
                         <outlet property="righthand" destination="92f-gO-Lzd" id="hOr-vG-a5q"/>
                         <outlet property="rightleg" destination="maC-8G-97p" id="w2C-hY-deE"/>
+                        <outlet property="winView" destination="UgJ-OM-QuY" id="mNS-8V-bdy"/>
                         <outlet property="winnerlbl" destination="Jc0-oS-LZp" id="axb-fR-H97"/>
                         <outletCollection property="ButtonArray" destination="F2y-oJ-AlQ" id="3Ka-N3-xgu"/>
                         <outletCollection property="ButtonArray" destination="ALY-iH-KTZ" id="O8l-hg-OlN"/>
@@ -370,48 +374,50 @@
         </scene>
     </scenes>
     <resources>
+        <image name="A_green.png" width="32" height="32"/>
+        <image name="B-green.png" width="32" height="32"/>
+        <image name="C-green.png" width="32" height="32"/>
+        <image name="D-green.png" width="32" height="32"/>
+        <image name="E-green.png" width="32" height="32"/>
+        <image name="F-green.png" width="32" height="32"/>
+        <image name="G-green.png" width="32" height="32"/>
+        <image name="H-green.png" width="32" height="32"/>
+        <image name="I-green.png" width="32" height="32"/>
+        <image name="J-green.png" width="32" height="32"/>
+        <image name="K-green.png" width="32" height="32"/>
+        <image name="L-green.png" width="32" height="32"/>
+        <image name="M-green.png" width="32" height="32"/>
         <image name="MovieNight.jpg" width="1500" height="1125"/>
-        <image name="a_gold.png" width="128" height="128"/>
+        <image name="N-green.png" width="32" height="32"/>
+        <image name="O-green.png" width="32" height="32"/>
+        <image name="P-green.png" width="32" height="32"/>
+        <image name="Q-green.png" width="32" height="32"/>
+        <image name="R-green.png" width="32" height="32"/>
+        <image name="S-green.png" width="32" height="32"/>
+        <image name="T-green.png" width="32" height="32"/>
+        <image name="U-green.png" width="32" height="32"/>
+        <image name="V-green.png" width="32" height="32"/>
+        <image name="W-green.png" width="32" height="32"/>
+        <image name="X-green.png" width="32" height="32"/>
+        <image name="Y-green.png" width="32" height="32"/>
+        <image name="Z-green.png" width="32" height="32"/>
         <image name="b.png" width="16" height="16"/>
         <image name="b_gold.png" width="128" height="128"/>
         <image name="back.png" width="320" height="320"/>
-        <image name="c_gold-2.png" width="32" height="32"/>
         <image name="c_gold.png" width="128" height="128"/>
-        <image name="d_gold.png" width="128" height="128"/>
-        <image name="e_gold.png" width="128" height="128"/>
-        <image name="f_gold.png" width="128" height="128"/>
-        <image name="g_gold.png" width="128" height="128"/>
-        <image name="h_gold.png" width="128" height="128"/>
         <image name="hand1.png" width="180" height="180"/>
         <image name="hand2.png" width="106" height="225"/>
         <image name="hand3.png" width="225" height="106"/>
         <image name="hang.png" width="250" height="250"/>
-        <image name="i_gold.png" width="128" height="128"/>
-        <image name="j_gold.png" width="128" height="128"/>
-        <image name="k_gold.png" width="128" height="128"/>
-        <image name="l_gold.png" width="128" height="128"/>
         <image name="leg1.png" width="256" height="256"/>
         <image name="leg2.png" width="256" height="256"/>
-        <image name="m_gold.png" width="128" height="128"/>
         <image name="movie_night.jpg" width="700" height="525"/>
-        <image name="n_gold.png" width="128" height="128"/>
-        <image name="o_gold.png" width="128" height="128"/>
         <image name="orangea.png" width="16" height="16"/>
-        <image name="p_gold.png" width="128" height="128"/>
         <image name="playNow.png" width="363" height="76"/>
+        <image name="plose.png" width="128" height="128"/>
         <image name="pumpkin.png" width="128" height="128"/>
-        <image name="q_gold.png" width="128" height="128"/>
-        <image name="r_gold.png" width="128" height="128"/>
         <image name="reset.png" width="600" height="428"/>
-        <image name="s_gold.png" width="128" height="128"/>
         <image name="sad.png" width="128" height="128"/>
-        <image name="t_gold.png" width="128" height="128"/>
-        <image name="u_gold.png" width="128" height="128"/>
-        <image name="v_gold.png" width="128" height="128"/>
-        <image name="w_gold.png" width="128" height="128"/>
-        <image name="x_gold.png" width="128" height="128"/>
-        <image name="y_gold.png" width="128" height="128"/>
-        <image name="z_gold.png" width="128" height="128"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="WE6-N2-ATS"/>
